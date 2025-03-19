@@ -97,6 +97,14 @@ Vue.createApp({
       }
     },
 
+    removeItem(id) {
+      const index = this.cart.findIndex((item) => item.id === id);
+
+      if (index !== -1) {
+        this.cart.splice(index, 1);
+      }
+    },
+
     getTotalPrice() {
       return this.cart
         .reduce((total, item) => total + item.price * item.quantity, 0)

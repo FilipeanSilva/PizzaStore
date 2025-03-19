@@ -71,6 +71,7 @@ Vue.createApp({
       cart: [],
     };
   },
+  
   methods: {
     addPizza(id) {
       const index = this.cart.findIndex((pizza) => pizza.id === id);

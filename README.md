@@ -10,14 +10,14 @@ A simple pizza ordering application built using **Vue.js**. This project allows 
 - 🚀 **Vue.js Reactive Data**: Efficient state management with Vue.
 
 ## Technologies Used
-- **Vue.js 3** (CDN-based)
+- **Vue.js 3**
 - **HTML5 & CSS3**
 - **JavaScript (ES6+)**
 - **Bootstrap 5**
 
 
 ## Installation & Setup
-Since this project is built using Vue.js via **CDN**, no installation is required. Simply clone the repository and open `index.html` in your browser.
+Since this project is built using Vue.js, no installation is required. Simply clone the repository and open `index.html` in your browser.
 
 ```sh
 # Clone the repository

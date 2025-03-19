@@ -216,3 +216,7 @@ body {
     gap: 1.5rem;
   }
 }
+
+[v-cloak] {
+  display: none;
+}
